@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marker Survey Form</title>
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <header>
+    <div class="navigation">
+      <nav>
+        <h1>Welcome To Marker Mania!</h1>
+        <ul>
+          <li><a href="http://facebook.com">Home</a></li>
+          <li><a href="http://google.com">About</a></li>
+          <li><a href="http://youtube.com">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <body>
+    <div class="registration">
+      <h2>What's Your Favorite Colored Marker?</h2>
+      <p>(Please fill out this form!)</p>
+      <h3>Account Registration</h3>
+      <form action="http://surveyformcoloredmarker.com">
+        <fieldset>
+          <label for="first-name"
+            >Enter Your First Name: <input id="first-name" name="first-name" type="text" required
+          /></label>
+          <label for="last-name"
+            >Enter Your Last Name: <input id="last-name" name="last-name" type="text" required
+          /></label>
+          <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+          <label for="new-password"
+            >Create Your Password:
+            <input id="new-password" name="new-password" type="password" pattern="[a-z0-9]{8,}" required
+          /></label>
+        </fieldset>
+        <div class="container">
+          <div class="red marker">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+          </div>
+          <div class="green marker">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+          </div>
+          <div class="blue marker">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+          </div>
+          <div class="purple marker">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+          </div>
+          <div class="orange marker">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+          </div>
+          <div class="yellow marker">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+          </div>
+          <div class="gray marker">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+          </div>
+          <div class="black marker">
+            <div class="cap"></div>
+            <div class="sleeve"></div>
+          </div>
+        </div>
+        <fieldset>
+          <label for="favorite-marker"
+            >Which Of The Colored Markers Above Is Your Favorite?
+            <select id="favorite-marker" name="favorite-marker">
+              <option value="">(Select One)</option>
+              <option value="1">Red</option>
+              <option value="2">Green</option>
+              <option value="3">Blue</option>
+              <option value="4">Purple</option>
+              <option value="5">Orange</option>
+              <option value="6">Yellow</option>
+              <option value="7">Gray</option>
+              <option value="8">Black</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="reason-why"
+            >Why Is It Your Favorite?
+            <textarea id="reason-why" placeholder="Because..." rows="3" cols="30" name="reason-why"></textarea>
+          </label>
+        </fieldset>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
